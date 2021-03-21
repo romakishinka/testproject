@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/haulmont
+    username: postgres
+    password: 2897
+
+server:
+  error:
+    include-message: always
+
+twilio:
+  account_sid: ACd4ebbd4451eec2bfd7e067e22a599b98
+  auth_token: e1b20fd21280e79732652fd072248522
+  trial_number: +12602176844
